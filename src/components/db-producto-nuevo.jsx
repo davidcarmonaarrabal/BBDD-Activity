@@ -1,5 +1,6 @@
 import mysql from "@/lib/mysql"
 import { revalidatePath } from "next/cache"
+import SubmitButton from "@/components/submit-button"
 
 
 async function nuevoProducto(formData) {
@@ -12,7 +13,11 @@ async function nuevoProducto(formData) {
     const values = [nombre, descripcion, precio];
 
     const [result, fields] = await mysql.query(sql, values)
-    revalidatePath('/productos')
+
+    // Introducimos un retardo artificial
+    await new Promise(resolve => setTimeout(resolve, 2000))
+
+    revalidatePath('/productos-db')
 }
 
 
@@ -31,10 +36,10 @@ function ProductoNuevo() {
             <input required id='precio' name='precio' type='number' step='0.01' className='p-1 border border-slate-200 focus:outline-blue-300 text-lg' />
 
             <div className='col-span-2 grid gap-2'>
-                <button formAction={nuevoProducto} className='bg-green-600 text-white px-4 py-2 rounded-xl'>
+                <SubmitButton formAction={nuevoProducto} className='disabled:bg-slate-600 bg-green-600 text-white px-4 py-2 rounded-xl'>
                     Guardar producto
-                </button>
-                <button type='reset' className='bg-slate-600 text-white px-4 py-2 rounded-xl'>
+                </SubmitButton>
+                <button type='reset' className='bg-blue-600 text-white px-4 py-2 rounded-xl'>
                     Limpiar campos
                 </button>
             </div>

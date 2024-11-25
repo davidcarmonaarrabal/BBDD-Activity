@@ -22,41 +22,18 @@
       "createdAt": "2024-10-23T10:56:35.101Z"
     },
     {
-      "id": "2338",
-      "nombre": "jhkhjhl",
-      "descripcion": "dafads",
-      "precio": 33,
-      "createdAt": "2024-11-15T20:35:18.065Z"
-    }
-  ],
-  "clientes": [
-    {
-      "id": "1",
-      "nombre": "Monitor 17 pulgadas",
-      "descripcion": "Monitor plano LCD",
-      "precio": 110.22,
-      "createdAt": "2024-10-23T10:56:35.101Z"
+      "id": "dc9d",
+      "nombre": "afdaf",
+      "descripcion": "44",
+      "precio": 44,
+      "createdAt": "2024-11-25T12:35:16.638Z"
     },
     {
-      "id": "2",
-      "nombre": "Teclado",
-      "descripcion": "Teclado USB en español",
-      "precio": 20.12,
-      "createdAt": "2024-10-23T10:56:35.101Z"
-    },
-    {
-      "id": "3",
-      "nombre": "Impresora",
-      "descripcion": "Impresora láser a color",
-      "precio": 360.05,
-      "createdAt": "2024-10-23T10:56:35.101Z"
-    },
-    {
-      "id": "2338",
-      "nombre": "jhkhjhl",
-      "descripcion": "dafads",
-      "precio": 33,
-      "createdAt": "2024-11-15T20:35:18.065Z"
+      "id": "734a",
+      "nombre": "44",
+      "descripcion": "44",
+      "precio": 44,
+      "createdAt": "2024-11-25T12:38:39.289Z"
     }
   ]
 }

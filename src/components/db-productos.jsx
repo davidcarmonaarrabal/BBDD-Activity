@@ -11,7 +11,7 @@ async function obtenerProductos(query) {
     const [productos] = await mysql.query(sql, values);
     
     // Introducimos un retardo artificial
-    // await new Promise(resolve => setTimeout(resolve, 2000))
+    // await new Promise(resolve => setTimeout(resolve, 5000))
 
     return productos
 }
@@ -36,7 +36,7 @@ async function Productos({ query }) {
     return (
         <>
             <h1 className='text-2xl text-slate-600 py-2  mb-2 border-b-2 border-b-slate-600'>
-                Listado de productos
+                Listado de productos (DB)
             </h1>
 
             <Buscar />
