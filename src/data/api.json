@@ -2,7 +2,7 @@
   "productos": [
     {
       "id": "1",
-      "nombre": "Monitor 17 pulgadas",
+      "nombre": "Monitor 17 pulgadassasasaasssaasas",
       "descripcion": "Monitor plano LCD",
       "precio": 110.22,
       "createdAt": "2024-10-23T10:56:35.101Z"
@@ -35,5 +35,43 @@
       "precio": 44,
       "createdAt": "2024-11-25T12:38:39.289Z"
     }
+  ],
+  "clientes": [
+    {
+      "id": "1",
+      "nombre": "David Carmona",
+      "descripcion": "Pringao",
+      "dni": "11111111A",
+      "createdAt": "2024-10-23T10:56:35.101Z"
+    },
+    {
+      "id": "2",
+      "nombre": "Manue",
+      "descripcion": "Empresaurio",
+      "dni": "23246712F",
+      "createdAt": "2024-10-23T10:56:35.101Z"
+    },
+    {
+      "id": "3",
+      "nombre": "Mamá",
+      "descripcion": "Es mi mamá",
+      "dni": "22222222B",
+      "createdAt": "2024-10-23T10:56:35.101Z"
+    },
+    {
+      "id": "dc9d",
+      "nombre": "Arcane",
+      "descripcion": "Arcane...",
+      "dni": "11111111F",
+      "createdAt": "2024-11-25T12:35:16.638Z"
+    },
+    {
+      "id": "734a",
+      "nombre": "Jhin",
+      "descripcion": "4444",
+      "dni": "44444444D",
+      "createdAt": "2024-11-25T12:38:39.289Z"
+    }
   ]
 }
+

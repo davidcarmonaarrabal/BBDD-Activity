@@ -21,4 +21,17 @@ VALUES
   ('Teclado', 'Teclado USB en español', 20.12),
   ('Impresora', 'Impresora láser a color', 360.05);
 
+CREATE TABLE clientes (
+    id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    nombre VARCHAR(200) NOT NULL,
+    descripcion VARCHAR(200),
+    dni VARCHAR(9),
+    createdAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updatedAt TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
 
+INSERT INTO clientes (nombre, descripcion, dni) 
+VALUES 
+  ('David Carmona', 'Pringao', '11111111Q'),
+  ('Manue', 'Empresaurio', '09214256A'),
+  ('Madre', 'Mi madre', '22222222B');
